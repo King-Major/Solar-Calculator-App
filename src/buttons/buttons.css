@@ -1,0 +1,47 @@
+.button-container{
+display: grid;
+grid-template-columns: 46% 46%;
+column-gap: 8%;
+}
+
+button{
+  font-size: 18px;
+ height: 3em;
+ width: 100%;
+ border: none;
+ border-radius: 12px;
+ color: white;
+}
+
+.calc-button{
+  background-color: rgb(65, 65, 65);
+}
+
+.clear-btn{
+  align-items: center;
+  background-color: rgb(190, 0, 0);
+}
+
+.clear-btn span, .calc-button span{
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.bxs-trash-alt{
+color: white;
+font-size: 25px;
+margin: 2px;
+}
+
+.bxs-paper-plane{
+  color: white;
+  font-size: 25px;
+  margin: 2px;
+  }
+  
+
+.inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
